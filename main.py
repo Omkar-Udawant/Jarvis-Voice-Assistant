@@ -10,7 +10,7 @@ import os
 
 # --- Configuration ---
 # IMPORTANT: Replace these with your actual keys
-newsapi = "<Your Key Here>"
+newsapi = "3b6c83300d5e4c5b8a99b49e5b44bde5"
 openai_api_key = "<Your Key Here>"
 
 # Initialize Recognizer only once
@@ -171,3 +171,4 @@ if __name__ == "__main__":
             print("Error: Could not understand audio.")
         except Exception as e:
             print(f"An unexpected error occurred: {e}")
+
